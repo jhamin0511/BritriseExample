@@ -19,6 +19,10 @@ class MainActivity : AppCompatActivity() {
         val calButton: Button = findViewById(R.id.calculate)
         val resultText: TextView = findViewById(R.id.result)
 
+        typeButton.setOnClickListener {
+            cal.setNext()
+            typeButton.text = cal.getType().string
+        }
         calButton.setOnClickListener {
             val first = oneText.text.toString().toInt()
             val second = twoText.text.toString().toInt()
