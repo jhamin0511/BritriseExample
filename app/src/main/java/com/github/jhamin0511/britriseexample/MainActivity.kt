@@ -8,6 +8,12 @@ import androidx.appcompat.app.AppCompatActivity
 class MainActivity : AppCompatActivity() {
 
     private val cal = Calculate()
+    private val music1 : String = "Lesson Zero"
+    private val music2 : String = "Rosario(피처링: CL, 지코)"
+    private val music3 : String = "내 얘기 같아(피처링: 헤이즈)"
+    private val music4 : String = "수상소감(피처링: B.I)"
+    private val music5 : String = "Leica(피처링: 김사월)"
+    private val music6 : String = "Leica(피처링: 김사월)"
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -19,10 +25,6 @@ class MainActivity : AppCompatActivity() {
         val calButton: Button = findViewById(R.id.calculate)
         val resultText: TextView = findViewById(R.id.result)
 
-        typeButton.setOnClickListener {
-            cal.setNext()
-            typeButton.text = cal.getType().string
-        }
         calButton.setOnClickListener {
             val first = oneText.text.toString().toInt()
             val second = twoText.text.toString().toInt()

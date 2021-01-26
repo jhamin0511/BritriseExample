@@ -7,19 +7,6 @@ class Calculate {
         this.type = type
     }
 
-    fun setNext() {
-        type = when (type) {
-            Type.PLUS -> Type.MINUS
-            Type.MINUS -> Type.TIMES
-            Type.TIMES -> Type.DIV
-            Type.DIV -> Type.PLUS
-        }
-    }
-
-    fun getType(): Type {
-        return type
-    }
-
     fun result(one: Int, two: Int): Int {
         return when (type) {
             Type.PLUS -> one.plus(two)
