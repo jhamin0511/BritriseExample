@@ -15,6 +15,7 @@ class MainActivity : AppCompatActivity() {
     private val music5 : String = "Leica(피처링: 김사월)"
     private val music6 : String = "Leica(피처링: 김사월)"
     private val game1 = "싸이펑크2077"
+    private vall build = "빌드에러 발생"
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
