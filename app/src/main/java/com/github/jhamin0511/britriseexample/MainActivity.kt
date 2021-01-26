@@ -13,6 +13,7 @@ class MainActivity : AppCompatActivity() {
     private val music3 : String = "내 얘기 같아(피처링: 헤이즈)"
     private val music4 : String = "수상소감(피처링: B.I)"
     private val music5 : String = "Leica(피처링: 김사월)"
+    private val music6 : String = "Leica(피처링: 김사월)"
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
