@@ -10,6 +10,7 @@ class MainActivity : AppCompatActivity() {
     private val cal = Calculate()
     private val music1 : String = "Lesson Zero"
     private val music2 : String = "Rosario(피처링: CL, 지코)"
+    private val music3 : String = "내 얘기 같아(피처링: 헤이즈)"
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
